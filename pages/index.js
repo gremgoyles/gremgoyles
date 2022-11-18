@@ -63,7 +63,7 @@ export default function Home() {
             </Link>
             <Link href="https:/www.spatial.io/s/GG-63695665eea9af00012a539b?share=8027026146896178189" passHref>
               <div className='bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'>
-              <Image  src={spatial} className='hover:opacity-50'/>
+              <Image  src={spatial} alt="spatial icon" className='hover:opacity-50'/>
               </div>
             </Link>
             <Link href="https:/www.youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ" passHref>
@@ -81,43 +81,25 @@ export default function Home() {
           </div>
           <div className='text-center md:max-w-2xl lg:max-w-4xl mx-auto'>
             <p className='py-2'>
-            Gremgoyles was inspired by the 1984 horror film called Gremlins and a Saturday morning 
-            cartoon called Gargoyles. The artist that came up this idea of bringing these 2 creatures 
-            together his name is King Pinky. One day Pinky decided he would try to draw an animated 
-            cartoon character of his own daughter, which then resulted in a baby Gremgoyle. So yes, 
-            the very first Gremgoyle ever made was him drawing his own daughter.
+              Gremgoyles was inspired by the 1984 horror film called Gremlins and a Saturday morning cartoon called Gargoyles. The artist that came up this idea of bringing these 2 creatures together his name is King Pinky. One day Pinky decided he would try to draw an animated cartoon character of his own daughter, which then resulted in a baby Gremgoyle. So yes, the very first Gremgoyle ever made was him drawing his own daughter.
             </p>
             <p className='py-2'>
-            The Gremgoyles is a hand drawn 1/1 collection of 333 NFT'S on the Ethereum blockchain. 
-            The 3 mint prices range from 0.03-0.07 based rarities.
+              The Gremgoyles is a hand drawn 1/1 collection of 333 NFT&apos;S on the Ethereum blockchain. The 3 mint prices range from 0.03-0.07 based rarities.
             </p>
             <p className='py-2'>
-            You can evolve your Gremgoyles by giving them potions which you can mint for a reasonable 
-            mint price of 0.02 ETH. There's 4 stages of evolution starting from Gremgoyles to Teenagers, 
-            Beasts and from Beasts to the last form the Elders. The original Gremgoyle form is unisex. 
-            So after you've minted your Gremgoyle, you really won't know what sex they are until you evolve them. 
-            Which may result in the community wanting to hold on to there NFT'S.
+              You can evolve your Gremgoyles by giving them potions which you can mint for a reasonable  mint price of 0.02 ETH. There&apos;s 4 stages of evolution starting from Gremgoyles to Teenagers,  Beasts and from Beasts to the last form the Elders. The original Gremgoyle form is unisex. So after you&apos;ve minted your Gremgoyle, you really won&apos;t know what sex they are until you evolve them. Which may result in the community wanting to hold on to there NFT&apos;S.
             </p>
             <p className='py-2'>
-            A comic strip will be released to give our nfts a good back story, which will be place in a comic 
-            channel on our discord. In the meantime our communities have been coming up with there own ideas 
-            about what there castles have in them, until the comic strip is released. The discord itself is 
-            broken up into 3 separate chat rooms. Each private chat is named castle 1,2,3 to give our 
-            communities a home to belong to and to build personable relationships with each other. 
-            There are contests on the discord which keeps everyone engaged weekly.
+              A comic strip will be released to give our nfts a good back story, which will be place in a comic channel on our discord. In the meantime our communities have been coming up with there own ideas about what there castles have in them, until the comic strip is released. The discord itself is broken up into 3 separate chat rooms. Each private chat is named castle 1,2,3 to give our communities a home to belong to and to build personable relationships with each other. There are contests on the discord which keeps everyone engaged weekly.
             </p>
             <p className='py-2'>
-            Gremgoyles believe in equal opportunity and for this reason there is no whitelist. 
-            When our mint goes LIVE anyone and @everyone has the same opportunity to mint 1 Gremgoyle per castle. 
-            The community also has the right to mint from all 3 castles. Each castle has 111 NFT'S in them. 
-            The rarest castle is castle 1 because it has 100 Legendary out of 111 NFT'S in it.
+                Gremgoyles believe in equal opportunity and for this reason there is no whitelist. When our mint goes LIVE anyone and @everyone has the same opportunity to mint 1 Gremgoyle per castle. The community also has the right to mint from all 3 castles. Each castle has 111 NFT&apos;S in them. The rarest castle is castle 1 because it has 100 Legendary out of 111 NFT&apos;S in it.
             </p>
             <p className='py-2'>
-            This NFT project is pretty straight forward, build a community that wants to grow with you. 
-            We do everything in stages just like our Gremgoyles evolutions.
+              This NFT project is pretty straight forward, build a community that wants to grow with you.  We do everything in stages just like our Gremgoyles evolutions.
             </p>
             <p className='py-5'>
-            -GROW YOUR GREMGOYLES, LET'S GROW TOGETHER
+              -GROW YOUR GREMGOYLES, LET&apos;S GROW TOGETHER
             </p>
           </div>
         </section>
@@ -134,7 +116,7 @@ export default function Home() {
           </div>
           <div className='py-10 m-6 flex flex-wrap justify-center lg:max-w-5xl lg:mx-auto'>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team1} className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
+              <Image src={team1} alt="king pinky" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>alberto castronovo</h2>
               <h1 className='py-2 text-black text-6xl'>king pinky</h1>
               <p className='py-2 text-black text-2xl'>founder/design</p>
@@ -145,11 +127,11 @@ export default function Home() {
                   <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </Link>
-                  <Image src={canada} className="object-cover py-2 px-2 w-20 h-20"/>
+                  <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team2} className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team2} alt="golden king" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>jumani parker</h2>
               <h1 className='py-2 text-black text-6xl'>golden king</h1>
               <p className='py-2 text-black text-2xl'>co founder/marketing manager</p>
@@ -160,11 +142,11 @@ export default function Home() {
                   <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </Link>
-                  <Image src={usa} className="object-cover py-2 px-2 w-20 h-20"/>
+                  <Image src={usa} alt="usa icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team3} className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team3} alt="king icarus" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>dominic riolo</h2>
               <h1 className='py-2 text-black text-6xl'>king icarus</h1>
               <p className='py-2 text-black text-2xl'>co founder/art director</p>
@@ -175,18 +157,18 @@ export default function Home() {
                   <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </Link>
-                  <Image src={canada} className="object-cover py-2 px-2 w-20 h-20"/>
+                  <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team4} className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team4} alt="king code" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
               <h1 className='py-2 text-black text-6xl'>king code</h1>
               <p className='py-2 text-black text-2xl'>developer</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
                   <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </Link>
-                  <Image src={canada} className="object-cover py-2 px-2 w-20 h-20"/>
+                  <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
           </div>
