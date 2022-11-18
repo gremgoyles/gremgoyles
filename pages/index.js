@@ -3,9 +3,9 @@ import {AiFillTwitterCircle, AiFillInstagram, AiFillYoutube} from 'react-icons/a
 import { SiDiscord, SiTiktok, SiTwitch, } from 'react-icons/si';
 import {IoStorefront} from 'react-icons/io5';
 import Image from 'next/image';
-import team1 from '@/images/Team1.PNG';
-import team2 from '@/images/Team2.JPG';
-import team3 from '@/images/Team3.PNG';
+import team1 from '@/images/team1.PNG';
+import team2 from '@/images/team2.JPG';
+import team3 from '@/images/team3.PNG';
 import team4 from '@/images/team4.png';
 import canada from 'public/canada.png';
 import usa from 'public/usa.png';
