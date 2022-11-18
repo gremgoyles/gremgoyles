@@ -131,7 +131,7 @@ export default function Home() {
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team2} alt="golden king" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team2} alt="golden king" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>jumani parker</h2>
               <h1 className='py-2 text-black text-6xl'>golden king</h1>
               <p className='py-2 text-black text-2xl'>co founder/marketing manager</p>
@@ -146,7 +146,7 @@ export default function Home() {
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team3} alt="king icarus" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team3} alt="king icarus" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>dominic riolo</h2>
               <h1 className='py-2 text-black text-6xl'>king icarus</h1>
               <p className='py-2 text-black text-2xl'>co founder/art director</p>
@@ -161,7 +161,7 @@ export default function Home() {
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team4} alt="king code" className="object-cover py-2 px-2"width={"100%"} height={"100%"}/>
+              <Image src={team4} alt="king code" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h1 className='py-2 text-black text-6xl'>king code</h1>
               <p className='py-2 text-black text-2xl'>developer</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
