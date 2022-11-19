@@ -8,6 +8,8 @@ const nextConfig = {
         destination: 'https:/www.gremgoyles.com',
         permanent: true,
       },
+
+      /*
       {
         source:'/gremgoylesofficial.com/twitter.com/gremgoyles',
         destination:'https:/twitter.com/gremgoyles',
@@ -51,6 +53,7 @@ const nextConfig = {
         permanent: true,
       },
         /* from here is personal icons */
+        /*
 
         {
           source:'/gremgoyles.netlify.app/twitter.com/VoiceOfBerto',
@@ -68,6 +71,7 @@ const nextConfig = {
           destination:'https:/twitter.com/IcarusNeedles',
           permanent: true,
         },
+        */
     ]
   }
 }
