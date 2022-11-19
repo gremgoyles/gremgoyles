@@ -12,9 +12,15 @@ import usa from 'public/usa.png';
 import Link from 'next/link/';
 import Youtubevid from './components/Youtubevid';
 import spatial from '../public/spatial.png';
+import redirect from 'nextjs-redirect'
+
 
 
 export default function Home() {
+  
+ /* const TwitterRedirect = redirect('http://twitter.com/gremgoyles')*/
+
+
   return (
     <div>
       <Head>
@@ -52,32 +58,56 @@ export default function Home() {
             </ul>
           </nav>
           <div className='pt-2 pb-10 flex items-center o gap-2 text-center justify-center'>
-            <Link id="twitterhero" href="https:/twitter.com/gremgoyles" passHref={true}>
-              <AiFillTwitterCircle   className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+            <Link legacyBehavior href='http://twitter.com/gremgoyles' passHref={true}>
+              <a >
+                <AiFillTwitterCircle  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+              </a>
+            
             </Link>
-            <Link href="https:/www.instagram.com/gremgoyles?r=nametag" passHref={true}>
+      
+            <Link legacyBehavior href='https://instagram.com/gremgoyles' passHref={true}>
+              <a>
               <AiFillInstagram  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+
+              </a>
             </Link>
-            <a href="https:/discord.gg/WHrtReUkmG" passHref={true}>
-              <SiDiscord  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </a>
-            <a href="https://www.bit.ly/3Xfoveo" passHref={true}>
-              <div className='bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'>
-              <Image  src={spatial} alt="spatial icon" className='hover:opacity-50'/>
-              </div>
-            </a>
-            <a href="https:/www.youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ" passHref={true}>
-              <AiFillYoutube  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </a>
-            <a href="https:/www.tiktok.com/@gremgoyles" passHref={true}>
-              <SiTiktok  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </a>
-            <a href="https:/www.twitch.tv/gremgoyles" passHref={true}>
-              <SiTwitch  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </a>
-            <a href="https:/gremgoylesmerch.bigcartel.com/" passHref={true}>
-              <IoStorefront  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </a>
+            <Link legacyBehavior href='https://discord.gg/WHrtReUkmG' passHref={true}>
+              <a >
+                <SiDiscord  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+              </a>
+
+            </Link>
+            <Link legacyBehavior href='https://bit.ly/3Xfoveo' passHref={true}>
+                <a >
+                  <div className='bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'>
+                  <Image  src={spatial} alt="spatial icon" className='hover:opacity-50'/>
+                  </div>
+                </a>
+
+            </Link>
+            <Link legacyBehavior href='https://youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ' passHref={true}>
+                <a>
+                  <AiFillYoutube  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+                </a>
+
+            </Link>
+            <Link legacyBehavior href='https://tiktok.com/@gremgoyles' passHref={true}>
+                <a>
+                  <SiTiktok  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+                </a>
+            </Link>
+            <Link legacyBehavior href='https://twitch.tv/gremgoyles' passHref={true}>
+                <a>
+                  <SiTwitch  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+                </a>
+
+            </Link>
+            <Link legacyBehavior href='https://gremgoylesmerch.bigcartel.com' passHref={true}>
+                <a >
+                  <IoStorefront  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
+                </a>
+
+            </Link>
           </div>
           <div className='text-center md:max-w-2xl lg:max-w-4xl mx-auto'>
             <p className='py-2'>
@@ -121,12 +151,16 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king pinky</h1>
               <p className='py-2 text-black text-2xl'>founder/design</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <a href="https:/twitter.com/VoiceOfBerto" passHref={true}>
+              <Link legacyBehavior href='https://twitter.com/VoiceOfBerto' passHref={true}>
+                  <a>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
-                  <a href=" https:/discord.gg/WHrtReUkmG" passHref={true}>
+              </Link>
+              <Link legacyBehavior href='https://discord.gg/WHrtReUkmG' passHref={true}>
+                  <a>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
+              </Link>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -136,12 +170,17 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>golden king</h1>
               <p className='py-2 text-black text-2xl'>co founder/marketing manager</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <a href="https:/twitter.com/Jaycode86" passHref={true}>
+              <Link legacyBehavior href='https://twitter.com/Jaycode86' passHref={true}>
+                  <a>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
-                  <a href=" https:/discord.gg/WHrtReUkmG" passHref={true}>
+
+              </Link>
+                  <Link legacyBehavior href='https://discord.gg/WHrtReUkmG' passHref={true}>
+                  <a>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
+              </Link>
                   <Image src={usa} alt="usa icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -151,12 +190,17 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king icarus</h1>
               <p className='py-2 text-black text-2xl'>co founder/art director</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <a href="https:/twitter.com/IcarusNeedles" passHref={true}>
+              <Link legacyBehavior href='https://twitter.com/IcarusNeedles' passHref={true}>
+                  <a>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
-                  <a href=" https:/discord.gg/WHrtReUkmG" passHref={true}>
+
+              </Link>
+                  <Link legacyBehavior href='https://discord.gg/WHrtReUkmG' passHref={true}>
+                  <a>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
+              </Link>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -165,9 +209,11 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king code</h1>
               <p className='py-2 text-black text-2xl'>developer</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <a href=" https:/discord.gg/WHrtReUkmG" passHref={true}>
+              <Link legacyBehavior href='https://discord.gg/WHrtReUkmG' passHref={true}>
+                  <a>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
                   </a>
+              </Link>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>

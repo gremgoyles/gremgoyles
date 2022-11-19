@@ -9,10 +9,10 @@ const nextConfig = {
         permanent: true,
       },
 
-
+        /*
       {
-        source:'/gremgoyles.netlify.app/twitter.com/gremgoyles',
-        destination:'https:/twitter.com/gremgoyles',
+        source:'/http://localhost:3000/twitter.com/gremgoyless',
+        destination:'https:/twitter.com',
         permanent: true,
 
       },
@@ -53,7 +53,7 @@ const nextConfig = {
         permanent: true,
       },
         /* from here is personal icons */
-  
+        /*
 
         {
           source:'/gremgoyles.netlify.app/twitter.com/VoiceOfBerto',
@@ -71,6 +71,7 @@ const nextConfig = {
           destination:'https:/twitter.com/IcarusNeedles',
           permanent: true,
         },
+        */
     ]
   }
 }
