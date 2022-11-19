@@ -4,7 +4,7 @@ const nextConfig = {
   redirects: async () => {
     return[
       {
-        source:'/mint/:id',
+        source:'https://gremgoyles.netlify.app/www.gremgoyles.com',
         destination: 'https:/www.gremgoyles.com',
         permanent: true,
       }
