@@ -9,7 +9,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:'/https://gremgoylesofficial.com/twitter.com/gremgoyles',
+        source:'/gremgoylesofficial.com/twitter.com/gremgoyles',
         destination:'https:/twitter.com/gremgoyles',
         permanent: true,
 

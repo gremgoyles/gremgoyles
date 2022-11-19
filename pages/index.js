@@ -52,7 +52,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='pt-2 pb-10 flex items-center o gap-2 text-center justify-center'>
-            <a id="twitterhero" href="https://gremgoylesofficial.com/twitter.com/gremgoyles" passHref="true">
+            <a id="twitterhero" href="https:/twitter.com/gremgoyles" passHref="true">
               <AiFillTwitterCircle   className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
             </a>
             <a href="https:/www.instagram.com/gremgoyles?r=nametag" passHref="true">
