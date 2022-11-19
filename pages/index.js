@@ -3,10 +3,10 @@ import {AiFillTwitterCircle, AiFillInstagram, AiFillYoutube} from 'react-icons/a
 import { SiDiscord, SiTiktok, SiTwitch, } from 'react-icons/si';
 import {IoStorefront} from 'react-icons/io5';
 import Image from 'next/image';
-import team1 from '@/images/team1.PNG';
-import team2 from '@/images/team2.JPG';
-import team3 from '@/images/team3.PNG';
-import team4 from '@/images/team4.png';
+import team1 from '@/images/team1.png';
+import team2 from '@/images/team2.jpg';
+import team3 from '@/images/team3.png';
+import team4 from '@/images/team4.jpg';
 import canada from 'public/canada.png';
 import usa from 'public/usa.png';
 import Link from 'next/link/';
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
           <div className='py-10 m-6 flex flex-wrap justify-center lg:max-w-5xl lg:mx-auto'>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team2} alt="king pinky" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
+              <Image src={team1} alt="king pinky" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h2 className='text-black text-3xl'>alberto castronovo</h2>
               <h1 className='py-2 text-black text-6xl'>king pinky</h1>
               <p className='py-2 text-black text-2xl'>founder/design</p>
@@ -161,7 +161,7 @@ export default function Home() {
               </div>
             </div>
             <div className='bg-white flex flex-col rounded-lg m-6 text-center shadow-lg md:basis-1/3 lg:basis-1/3'>
-              <Image src={team2} alt="king code" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
+              <Image src={team4} alt="king code" className="object-cover py-2 px-2" width={"100%"} height={"100%"}/>
               <h1 className='py-2 text-black text-6xl'>king code</h1>
               <p className='py-2 text-black text-2xl'>developer</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
