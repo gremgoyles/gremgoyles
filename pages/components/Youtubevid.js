@@ -15,7 +15,7 @@ extends React.Component {
     return (
       <div className="min-h-50 w-full bg-black flex justify-center">
         <YouTube videoId="6wQSFf-4SHg" 
-            opts={opts} onReady={this._onReady} className='sm:w-50' />
+            opts={opts} onReady={this._onReady}/>
       </div>
     );
   }
