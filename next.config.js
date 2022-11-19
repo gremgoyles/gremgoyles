@@ -14,8 +14,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:'/gremgoyles.netlify.app/www.instagram.com/gremgoyles?r=nametag',
-        destination:'https:/www.instagram.com/gremgoyles?r=nametag',
+        source:'/gremgoyles.netlify.app/www.instagram.com/gremgoyles',
+        destination:'https:/www.instagram.com/gremgoyles',
         permanent: true,
       },
       {
@@ -24,8 +24,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:'/gremgoyles.netlify.app/www.spatial.io/s/GG-63695665eea9af00012a539b?share=8027026146896178189',
-        destination:'https:/www.spatial.io/s/GG-63695665eea9af00012a539b?share=8027026146896178189',
+        source:'/gremgoyles.netlify.app/https:/www.bit.ly/3Xfoveo',
+        destination:'https:/https:/www.bit.ly/3Xfoveo',
         permanent: true,
       },
       {
