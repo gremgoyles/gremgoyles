@@ -25,7 +25,7 @@ const nextConfig = {
       },
       {
         source:'/gremgoyles.netlify.app/bit.ly/3Xfoveo',
-        destination:'https://www.bit.ly/3Xfoveo',
+        destination:'https:/www.bit.ly/3Xfoveo',
         permanent: true,
       },
       {
@@ -35,12 +35,12 @@ const nextConfig = {
       },
       {
         source:'/gremgoyles.netlify.app/www.tiktok.com/@gremgoyles',
-        destination:'https://www.tiktok.com/@gremgoyles',
+        destination:'https:/www.tiktok.com/@gremgoyles',
         permanent: true,
       },
       {
         source:'/gremgoyles.netlify.app/www.twitch.tv/gremgoyles',
-        destination:'https://www.twitch.tv/gremgoyles',
+        destination:'https:/www.twitch.tv/gremgoyles',
         permanent: true,
       },
       {
