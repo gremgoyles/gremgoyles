@@ -9,7 +9,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:'/gremgoyles.netlify.app/twitter.com/gremgoyless',
+        source:'/https://gremgoylesofficial.com/twitter.com/gremgoyles',
         destination:'https:/twitter.com/gremgoyles',
         permanent: true,
 
