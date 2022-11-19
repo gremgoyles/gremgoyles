@@ -11,7 +11,7 @@ const nextConfig = {
 
 
       {
-        source:'/https://6378da5d7061a9000a0495fa--gremgoyles.netlify.app/twitter.com/gremgoyles',
+        source:'/gremgoyles.netlify.app/twitter.com/gremgoyles',
         destination:'https:/twitter.com/gremgoyles',
         permanent: true,
 
