@@ -24,8 +24,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:'/gremgoyles.netlify.app/https:/https:/www.spatial.io/s/GG-63695665eea9af00012a539b',
-        destination:'https:/www.spatial.io/s/GG-63695665eea9af00012a539b',
+        source:'/gremgoyles.netlify.app/https:/www.spatial.io/s/GG-63695665eea9af00012a539',
+        destination:'https:/www.spatial.io/s/GG-63695665eea9af00012a539',
         permanent: true,
       },
       {
