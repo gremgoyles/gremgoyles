@@ -7,10 +7,12 @@ const nextConfig = {
         source:'/gremgoyles.netlify.app/www.gremgoyles.com',
         destination: 'https:/www.gremgoyles.com',
         permanent: true,
-
+      },
+      {
         source:'/gremgoyles.netlify.app/twitter.com/gremgoyless',
         destination:'https:/twitter.com/gremgoyles',
         permanent: true,
+
       },
       
       {
