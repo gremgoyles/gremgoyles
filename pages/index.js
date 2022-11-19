@@ -61,7 +61,7 @@ export default function Home() {
             <Link href="https:/discord.gg/WHrtReUkmG" passHref>
               <SiDiscord  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
             </Link>
-            <Link href="https:/www.spatial.io/s/GG-63695665eea9af00012a539b?share=8027026146896178189" passHref>
+            <Link href="https:/https:/www.bit.ly/3Xfoveo" passHref>
               <div className='bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'>
               <Image  src={spatial} alt="spatial icon" className='hover:opacity-50'/>
               </div>
