@@ -4,8 +4,8 @@ const nextConfig = {
   redirects: async () => {
     return[
       {
-        source:"/mint/:id",
-        destination: "https:/www.gremgoyles.com",
+        source:'/mint/:id',
+        destination: 'https:/www.gremgoyles.com',
         permanent: true,
       }
     ]

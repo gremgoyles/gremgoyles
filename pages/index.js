@@ -37,9 +37,9 @@ export default function Home() {
                   <li className='cursor-pointer lg:text-4xl hover:text-gray-400'>TEAM</li>
               </Link>
 
-              <Link id="mint" href="https:/www.gremgoyles.com/" passHref>
+              <a id='mint' href="https://www.gremgoyles.com/" passHref="true">
                   <li className='text-5xl cursor-pointer lg:text-8xl hover:text-gray-400'>MINT</li>
-              </Link>
+              </a>
 
               <Link href="#roadmap">
                 <li className='cursor-pointer lg:text-4xl hover:text-gray-400'>ROADMAP</li>
