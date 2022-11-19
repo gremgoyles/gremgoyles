@@ -52,32 +52,32 @@ export default function Home() {
             </ul>
           </nav>
           <div className='pt-2 pb-10 flex items-center o gap-2 text-center justify-center'>
-            <Link href="https:/twitter.com/gremgoyles" passHref>
+            <a href="https:/twitter.com/gremgoyles" passHref>
               <AiFillTwitterCircle   className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https:/www.instagram.com/gremgoyles?r=nametag" passHref>
+            </a>
+            <a href="https:/www.instagram.com/gremgoyles?r=nametag" passHref>
               <AiFillInstagram  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https:/discord.gg/WHrtReUkmG" passHref>
+            </a>
+            <a href="https:/discord.gg/WHrtReUkmG" passHref>
               <SiDiscord  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https://www.bit.ly/3Xfoveo" passHref>
+            </a>
+            <a href="https://www.bit.ly/3Xfoveo" passHref>
               <div className='bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'>
               <Image  src={spatial} alt="spatial icon" className='hover:opacity-50'/>
               </div>
-            </Link>
-            <Link href="https:/www.youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ" passHref>
+            </a>
+            <a href="https:/www.youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ" passHref>
               <AiFillYoutube  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https:/www.tiktok.com/@gremgoyles" passHref>
+            </a>
+            <a href="https:/www.tiktok.com/@gremgoyles" passHref>
               <SiTiktok  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https:/www.twitch.tv/gremgoyles" passHref>
+            </a>
+            <a href="https:/www.twitch.tv/gremgoyles" passHref>
               <SiTwitch  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
-            <Link href="https:/gremgoylesmerch.bigcartel.com/" passHref>
+            </a>
+            <a href="https:/gremgoylesmerch.bigcartel.com/" passHref>
               <IoStorefront  className='bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20'/>
-            </Link>
+            </a>
           </div>
           <div className='text-center md:max-w-2xl lg:max-w-4xl mx-auto'>
             <p className='py-2'>
@@ -121,12 +121,12 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king pinky</h1>
               <p className='py-2 text-black text-2xl'>founder/design</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <Link href="https:/twitter.com/VoiceOfBerto" passHref>
+                  <a href="https:/twitter.com/VoiceOfBerto" passHref>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
-                  <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
+                  </a>
+                  <a href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
+                  </a>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -136,12 +136,12 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>golden king</h1>
               <p className='py-2 text-black text-2xl'>co founder/marketing manager</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <Link href="https:/twitter.com/Jaycode86" passHref>
+                  <a href="https:/twitter.com/Jaycode86" passHref>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
-                  <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
+                  </a>
+                  <a href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
+                  </a>
                   <Image src={usa} alt="usa icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -151,12 +151,12 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king icarus</h1>
               <p className='py-2 text-black text-2xl'>co founder/art director</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <Link href="https:/twitter.com/IcarusNeedles" passHref>
+                  <a href="https:/twitter.com/IcarusNeedles" passHref>
                       <AiFillTwitterCircle className='bg-white hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
-                  <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
+                  </a>
+                  <a href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
+                  </a>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
@@ -165,9 +165,9 @@ export default function Home() {
               <h1 className='py-2 text-black text-6xl'>king code</h1>
               <p className='py-2 text-black text-2xl'>developer</p>
               <div className='py-2 flex items-center gap-2 text-center justify-center'>
-                  <Link href=" https:/discord.gg/WHrtReUkmG" passHref>
+                  <a href=" https:/discord.gg/WHrtReUkmG" passHref>
                       <SiDiscord className='bg-white  hover:text-gray-400 rounded-full w-10 h-10 cursor-pointer text-black'/>
-                  </Link>
+                  </a>
                   <Image src={canada} alt="canada icon" className="object-cover py-2 px-2 w-20 h-20"/>
               </div>
             </div>
