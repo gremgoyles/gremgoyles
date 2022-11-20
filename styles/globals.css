@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .h-screen-50{
+    height: 50vh;
+  }
+}
 html,
 body {
   padding: 0;

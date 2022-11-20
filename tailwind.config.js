@@ -6,7 +6,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
+      extend: {
+      
+        aspectRatio: { // defaults to {}
+          'none': 0,
+          'square': [1, 1], // or 1 / 1, or simply 1
+          '16/9': [16, 9],  // or 16 / 9
+          '4/3': [4, 3],    // or 4 / 3
+          '21/9': [21, 9],  // or 21 / 9
+        },
+
       backgroundImage:{
         'hero-bg': "url('../public/herobg.png')",
         'hero-bgsm': "url('../public/herobgsm.png')",
@@ -22,5 +31,13 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+    variants: {
+      aspectRatio: ['responsive'], // defaults to ['responsive']
+    },
+    corePlugins: {
+      aspectRatio: false,
+    },
+    plugins: [
+      require('@tailwindcss/aspect-ratio'),
+    ],
 }
