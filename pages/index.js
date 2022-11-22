@@ -15,6 +15,7 @@ import team3 from "@/images/team3.PNG";
 import team4 from "@/images/team4.jpg";
 import canada from "public/canada.png";
 import usa from "public/usa.png";
+import opensea from "public/opensea.png";
 import Link from "next/link/";
 import spatial from "../public/spatial.png";
 //import ReactPlayer from "react-player/youtube";
@@ -73,26 +74,40 @@ export default function Home() {
               </Link>
             </ul>
           </nav>
-          <div className="pt-2 pb-10 flex items-center o gap-2 text-center justify-center">
+          <div className="pt-2 pb-10 flex px-4 items-center gap-2 text-center justify-center">
             <Link legacyBehavior href="http://twitter.com/gremgoyles">
               <a>
-                <AiFillTwitterCircle className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <AiFillTwitterCircle className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
 
             <Link legacyBehavior href="https://instagram.com/gremgoyles">
               <a>
-                <AiFillInstagram className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <AiFillInstagram className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
             <Link legacyBehavior href="https://discord.gg/WHrtReUkmG">
               <a>
-                <SiDiscord className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <SiDiscord className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+              </a>
+            </Link>
+            <Link
+              legacyBehavior
+              href="https://opensea.io/GremGoyles?tab=created"
+            >
+              <a>
+                <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                  <Image
+                    src={opensea}
+                    alt="opensea icon"
+                    className="hover:opacity-50"
+                  />
+                </div>
               </a>
             </Link>
             <Link legacyBehavior href="https://bit.ly/3Xfoveo">
               <a>
-                <div className="bg-white p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20">
+                <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
                   <Image
                     src={spatial}
                     alt="spatial icon"
@@ -106,22 +121,22 @@ export default function Home() {
               href="https://youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ"
             >
               <a>
-                <AiFillYoutube className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <AiFillYoutube className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
             <Link legacyBehavior href="https://tiktok.com/@gremgoyles">
               <a>
-                <SiTiktok className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <SiTiktok className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
             <Link legacyBehavior href="https://twitch.tv/gremgoyles">
               <a>
-                <SiTwitch className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <SiTwitch className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
             <Link legacyBehavior href="https://gremgoylesmerch.bigcartel.com">
               <a>
-                <IoStorefront className="bg-white hover:text-gray-400 p-1 rounded-full w-10 h-10 cursor-pointer text-black lg:w-20 lg:h-20" />
+                <IoStorefront className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
               </a>
             </Link>
           </div>
