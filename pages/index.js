@@ -7,7 +7,8 @@ import {
 } from "react-icons/ai";
 import { SiDiscord, SiTiktok, SiTwitch } from "react-icons/si";
 import { IoStorefront } from "react-icons/io5";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaTrademark } from "react-icons/fa";
+import { BiCopyright } from "react-icons/bi";
 import Image from "next/image";
 import team1 from "@/images/team1.PNG";
 import team2 from "@/images/team2.JPG";
@@ -451,6 +452,21 @@ export default function Home() {
                 challenges and games and more!
               </li>
             </ul>
+          </div>
+        </section>
+        <section className="bg-black w-full">
+          <div className="flex justify-center py-10 text-center items-center">
+            <span className="text-white">
+              <BiCopyright />
+            </span>
+            <p>gremgoyles -</p>
+            <p className="flex text-center px-2">
+              gremgoyles
+              <span className="text-white pr-3">
+                <FaTrademark />
+              </span>
+              2022 .
+            </p>
           </div>
         </section>
       </main>
