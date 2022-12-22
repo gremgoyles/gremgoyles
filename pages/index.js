@@ -183,7 +183,7 @@ export default function Home() {
             </p>
             <p className="py-2">
               Gremgoyles believe in equal opportunity and for this reason there
-              is no whitelist. When our mint goes LIVE anyone and @everyone has
+              is no whitelist. When our mint goes LIVE anyone and everyone has
               the same opportunity to mint 1 Gremgoyle per castle. The community
               also has the right to mint from all 3 castles. Each castle has 111
               NFT&apos;S in them. The rarest castle is castle 1 because it has
@@ -421,7 +421,8 @@ export default function Home() {
             <ul className="text-center text-xl">
               <li className="text-3xl">what is your mint price?</li>
               <li className="text-white text-opacity-75 pb-5">
-                (castle 1 - 0.07 eth) (castle 2 - 0.03 eth) (castle 3 - 005 eth)
+                (castle 1 - 0.07 eth) (castle 2 - 0.03 eth) (castle 3 - 0.05
+                eth)
               </li>
 
               <li className="text-3xl">what is the utility?</li>
