@@ -162,7 +162,7 @@ export default function Home() {
             </p>
             <p className="py-2">
               You can evolve your Gremgoyles by giving them potions which you
-              can mint for a reasonable mint price of 0.02 ETH. There&apos;s 4
+              can mint for a reasonable mint price of 0.02 ETH. There&apos;s 3
               stages of evolution starting from Gremgoyles to Teenagers, Beasts
               and from Beasts to the last form the Elders. The original
               Gremgoyle form is unisex. So after you&apos;ve minted your
