@@ -209,6 +209,8 @@ export default function Home() {
           </div>
         </section>
 
+        {/* THIS SECTION IS FOR TEAM MEMBERS */}
+
         <section
           id="teamsection"
           className="min-h-screen pb-10 bg-team-bgsm bg-cover bg-no-repeat bg-right lg:bg-team-bg"
@@ -223,6 +225,7 @@ export default function Home() {
               <Image
                 src={team1}
                 alt="king pinky"
+                loading="lazy"
                 className="object-cover py-2 px-2"
                 width={"100%"}
                 height={"100%"}
@@ -252,6 +255,7 @@ export default function Home() {
               <Image
                 src={team2}
                 alt="golden king"
+                loading="lazy"
                 className="object-cover py-2 px-2"
                 width={"100%"}
                 height={"100%"}
@@ -283,6 +287,7 @@ export default function Home() {
               <Image
                 src={team3}
                 alt="king icarus"
+                loading="lazy"
                 className="object-cover py-2 px-2"
                 width={"100%"}
                 height={"100%"}
@@ -314,6 +319,7 @@ export default function Home() {
               <Image
                 src={team4}
                 alt="king code"
+                loading="lazy"
                 className="object-cover py-2 px-2"
                 width={"100%"}
                 height={"100%"}
@@ -335,6 +341,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* THIS SECTION IS FOR ROADMAP */}
 
         <section
           id="roadmap"
@@ -408,13 +416,15 @@ export default function Home() {
           </div>
         </section>
 
+        {/* THIS SECTION IS FOR FAQ PHASE 1 */}
+
         <section
           id="faqs"
           className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-no-repeat lg:bg-faq-bg"
         >
           <div>
-            <h1 className="bg-black w-full py-10 text-7xl font-bold font-NocturaSans flex justify-center ">
-              faqs
+            <h1 className="bg-black w-full py-10 text-5xl font-bold font-NocturaSans flex justify-center ">
+              phase I faq<span className="text-4xl flex items-end">s</span>
             </h1>
           </div>
           <div className="py-10 px-10 m-6 flex gap-4 justify-center lg:py-20">
@@ -432,11 +442,10 @@ export default function Home() {
 
               <li className="text-3xl">mint date??</li>
               <li className="text-white text-opacity-75 pb-5">
-                {" "}
                 november 4th, 2022
               </li>
 
-              <li className="text-3xl">what network willl GremGoyles be on?</li>
+              <li className="text-3xl">what network will GremGoyles be on?</li>
               <li className="text-white text-opacity-75 pb-5">
                 ethereum network
               </li>
@@ -452,9 +461,67 @@ export default function Home() {
                 -follow instructions for giveaways on discord and twitter,
                 challenges and games and more!
               </li>
+              <li className="py-4 text-5xl shadow-sm text-red-800 animate-bounce">
+                <span className="text-6xl">30%</span> Minted
+              </li>
             </ul>
           </div>
         </section>
+
+        {/* this section is for favorite asked questions phase 2*/}
+
+        <section
+          id="faqs"
+          className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-no-repeat lg:bg-faq-bg"
+        >
+          <div>
+            <h1 className="bg-black w-full py-10 text-5xl font-bold font-NocturaSans flex justify-center ">
+              phase II faq<span className="text-4xl flex items-end">s</span>
+            </h1>
+          </div>
+          {/* Q and A phase2*/}
+          <div className="py-10 px-10 m-6 flex gap-4 justify-center lg:py-20">
+            <ul className="text-center text-xl">
+              <li className="text-3xl">What is Mint Date ?</li>
+              <li className="text-white text-opacity-75 pb-5">
+                March 11, 2023
+              </li>
+
+              <li className="text-3xl">Whose Sponsoring You?</li>
+              <li className="text-white text-opacity-75 pb-5">FUNKO POP</li>
+
+              <li className="text-3xl">Will there be a Gremgoyle Funko Pop?</li>
+              <li className="text-white text-opacity-75 pb-5">
+                Yes, Gremgoyle Funko Pop is expected to hit the shelves in
+                September 2023
+              </li>
+
+              <li className="text-3xl">What is Your Mint Price?</li>
+              <li className="text-white text-opacity-75 pb-5">
+                (Mystery Box - 0.15 Eth ) (Castle 4 - 0.04 ETH )
+              </li>
+
+              <li className="text-3xl">
+                What kind of advantages will Phase I GG Holder get in Phase II?
+              </li>
+              <li className="text-white text-opacity-75 pb-2">
+                - Gremgoyle Holders get to Mint one day earlier 3/10/23 with a
+                12 hour window.
+              </li>
+              <li className="text-white text-opacity-75 pb-5">
+                - 20x raffle ticket for paid vacation, once they get to the last
+                evolution &apos;&apos;The Elder&apos;&apos;.
+              </li>
+
+              <li className="text-3xl">What are the Utilities?</li>
+              <li className="text-white text-opacity-75 pb-5">
+                Evolve Your Gremgoyle, Be a voice actor for our animated cartoon
+                series, Merch Discounts and More
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <section className="bg-black w-full">
           <div className="flex justify-center py-10 text-center items-center">
             <span className="text-white">
