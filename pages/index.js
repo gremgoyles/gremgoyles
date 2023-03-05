@@ -462,7 +462,7 @@ export default function Home() {
                 challenges and games and more!
               </li>
               <li className="py-4 text-5xl shadow-sm text-red-800 animate-bounce">
-                <span className="text-6xl">30%</span> Minted
+                <span className="text-6xl">50%</span> Minted
               </li>
             </ul>
           </div>
@@ -492,7 +492,7 @@ export default function Home() {
 
               <li className="text-3xl">Will there be a Gremgoyle Funko Pop?</li>
               <li className="text-white text-opacity-75 pb-5">
-                Yes, Gremgoyle Funko Pop is expected to hit the shelves in
+                Yes, Gremgoyle Funko Pop is expected to hit the shelves on
                 September 2023
               </li>
 
@@ -501,8 +501,9 @@ export default function Home() {
                 (Mystery Box - 0.15 Eth ) (Castle 4 - 0.04 ETH )
               </li>
 
+              <li className="text-3xl">What kind of advantages</li>
               <li className="text-3xl">
-                What kind of advantages will Phase I GG Holder get in Phase II?
+                will Phase I GG Holders get in Phase II?
               </li>
               <li className="text-white text-opacity-75 pb-2">
                 - Gremgoyle Holders get to Mint one day earlier 3/10/23 with a
