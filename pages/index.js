@@ -15,6 +15,7 @@ import team2 from "@/images/team2.JPG";
 import team3 from "@/images/team3.PNG";
 import team4 from "@/images/team4.jpg";
 import canada from "public/canada.png";
+import funnko from "public/funnko.png";
 import usa from "public/usa.png";
 import opensea from "public/opensea.png";
 import Link from "next/link/";
@@ -39,7 +40,7 @@ export default function Home() {
       <main className=" bg-stone-900">
         <section
           id="aboutsection"
-          className="min-h-screen w-full px-10 py-10 bg-black bg-hero-bgsm bg-center bg-cover md:bg-hero-bgsm md:bg-contain lg:bg-hero-bg lg:bg-cover bg-no-repeat "
+          className="min-h-screen w-full px-10 py-10 bg-black bg-hero-bgsm bg-top bg-cover md:bg-hero-bgsm md:bg-contain lg:bg-hero-bg lg:bg-cover bg-no-repeat "
         >
           <h1 className="pt-20 pb-5 text-4xl font-bold font-NocturaSans flex justify-center lg:text-6xl">
             GREMGOYLES
@@ -346,7 +347,7 @@ export default function Home() {
 
         <section
           id="roadmap"
-          className="min-h-screen pb-10 bg-roadmapsm-bg bg-no-repeat bg-cover lg:bg-roadmap-bg"
+          className="min-h-screen pb-10 bg-roadmapsm-bg bg-no-repeat bg-cover bg-right-bottom lg:bg-roadmap-bg"
         >
           <div>
             <h1 className="bg-black w-full py-10 text-7xl font-bold font-NocturaSans flex justify-center ">
@@ -356,7 +357,6 @@ export default function Home() {
           <div className="py-10 px-10 m-6 flex gap-4 justify-center">
             <ul className="text-center text-xl lg:text-3xl">
               <li className="flex justify-center">
-                {" "}
                 <span>
                   <FaCheck className="text-red-800" />
                 </span>
@@ -366,7 +366,7 @@ export default function Home() {
                 <span>
                   <FaCheck className="text-red-800" />
                 </span>
-                - Choose A Castle{" "}
+                - Choose A Castle
               </li>
               <li className="flex justify-center">
                 <span>
@@ -378,7 +378,7 @@ export default function Home() {
                 <span>
                   <FaCheck className="text-red-800" />
                 </span>
-                - Comic Strip{" "}
+                - Comic Strip
               </li>
               <li className="flex justify-center">
                 <span>
@@ -390,7 +390,7 @@ export default function Home() {
                 <span>
                   <FaCheck className="text-red-800" />
                 </span>
-                - Reveal GremGoyle 1 Week After Mint Date{" "}
+                - Reveal GremGoyle 1 Week After Mint Date
               </li>
               <li>
                 - Release Growth / Serum For 2nd Evolution GremGoyle Based on
@@ -420,7 +420,7 @@ export default function Home() {
 
         <section
           id="faqs"
-          className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-no-repeat lg:bg-faq-bg"
+          className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-right-bottom bg-no-repeat lg:bg-faq-bg"
         >
           <div>
             <h1 className="bg-black w-full py-10 text-5xl font-bold font-NocturaSans flex justify-center ">
@@ -471,8 +471,8 @@ export default function Home() {
         {/* this section is for favorite asked questions phase 2*/}
 
         <section
-          id="faqs"
-          className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-no-repeat lg:bg-faq-bg"
+          id="phase II faqs"
+          className="min-h-screen pb-5 bg-faq-bgsm bg-cover bg-right-bottom bg-no-repeat lg:bg-faq-bg"
         >
           <div>
             <h1 className="bg-black w-full py-10 text-5xl font-bold font-NocturaSans flex justify-center ">
@@ -480,7 +480,7 @@ export default function Home() {
             </h1>
           </div>
           {/* Q and A phase2*/}
-          <div className="py-10 px-10 m-6 flex gap-4 justify-center lg:py-20">
+          <div className="py-10 px-10 flex gap-4 justify-center lg:py-20">
             <ul className="text-center text-xl">
               <li className="text-3xl">What is Mint Date ?</li>
               <li className="text-white text-opacity-75 pb-5">
@@ -519,12 +519,20 @@ export default function Home() {
                 Evolve Your Gremgoyle, Be a voice actor for our animated cartoon
                 series, Merch Discounts and More
               </li>
+              <div className=" flex justify-center items-center">
+                <Image
+                  src={funnko}
+                  alt="funko pop"
+                  loading="lazy"
+                  className="object-cover max-w-sm h-auto animate-bounce pt-5"
+                />
+              </div>
             </ul>
           </div>
         </section>
 
         <section className="bg-black w-full">
-          <div className="flex justify-center py-10 text-center items-center">
+          <div className="flex justify-center m-0 py-10 text-center items-center">
             <span className="text-white">
               <BiCopyright />
             </span>
