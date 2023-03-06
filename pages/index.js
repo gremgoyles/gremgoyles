@@ -420,7 +420,7 @@ export default function Home() {
 
         <section
           id="faqs"
-          className="min-h-screen pb-10 bg-faq-bgsm bg-cover bg-right-bottom bg-no-repeat lg:bg-faq-bg"
+          className="min-h-screen pb-3 bg-faq-bgsm bg-cover bg-no-repeat lg:bg-faq-bg"
         >
           <div>
             <h1 className="bg-black w-full py-10 text-5xl font-bold font-NocturaSans flex justify-center ">
@@ -461,8 +461,8 @@ export default function Home() {
                 -follow instructions for giveaways on discord and twitter,
                 challenges and games and more!
               </li>
-              <li className="py-4 text-5xl shadow-sm text-red-800 animate-bounce">
-                <span className="text-6xl">50%</span> Minted
+              <li className="pt-10 text-7xl shadow-sm text-red-800 animate-bounce">
+                <span className="text-8xl">50%</span> Minted
               </li>
             </ul>
           </div>
