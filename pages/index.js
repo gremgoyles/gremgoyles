@@ -100,7 +100,7 @@ export default function Home() {
             />
           </div>
 
-          {/*SOCIAL MEDIA LINKS..WEREY*/}
+          {/*SOCIAL MEDIA LINKS..WEREYew*/}
 
           <div className="pt-2 pb-10 px-4 items-center text-center justify-center">
             <div className="flex flex-1 px-4 justify-center gap-2 items-baseline lg:gap-4">
