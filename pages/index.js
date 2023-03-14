@@ -126,6 +126,7 @@ export default function Home() {
                     <Image
                       src={spatial}
                       alt="spatial icon"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </div>
@@ -151,6 +152,7 @@ export default function Home() {
                     <Image
                       src={merchshop}
                       alt="opensea icon"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </div>
@@ -169,6 +171,7 @@ export default function Home() {
                       <Image
                         src={opensea}
                         alt="opensea icon"
+                        loading="lazy"
                         className="hover:opacity-50"
                       />
                     </div>
@@ -185,6 +188,7 @@ export default function Home() {
                     <Image
                       src={ggcustoms}
                       alt="gg customs"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </div>
@@ -199,6 +203,7 @@ export default function Home() {
                     <Image
                       src={ggcoin}
                       alt="gremgoyles coin"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </a>
@@ -213,6 +218,7 @@ export default function Home() {
                   <Image
                     src={phase2}
                     alt="phase 2"
+                    loading="lazy"
                     className="hover:opacity-50"
                   />
                 </a>
@@ -226,6 +232,7 @@ export default function Home() {
                     <Image
                       src={ggbox}
                       alt="Mystery boxes"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </a>
@@ -239,6 +246,7 @@ export default function Home() {
                     <Image
                       src={watervial}
                       alt="potions"
+                      loading="lazy"
                       className="hover:opacity-50"
                     />
                   </a>
