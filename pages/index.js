@@ -20,6 +20,13 @@ import usa from "public/usa.png";
 import opensea from "public/opensea.png";
 import Link from "next/link/";
 import spatial from "../public/spatial.png";
+import ggbox from "public/ggboox.png";
+import ggcoin from "public/ggcoin.png";
+import ggcustoms from "public/ggcustoms.png";
+import gremgoyleslogo from "public/gremgoyleslogo.png";
+import merchshop from "public/merchshop.png";
+import phase2 from "public/phase2.png";
+import watervial from "public/watervial.png";
 //import ReactPlayer from "react-player/youtube";
 
 const ReactPlayer = dynamic(() => import("react-player"));
@@ -42,9 +49,12 @@ export default function Home() {
           id="aboutsection"
           className="min-h-screen w-full px-10 py-10 bg-black bg-hero-bgsm bg-top bg-cover md:bg-hero-bgsm md:bg-contain lg:bg-hero-bg lg:bg-cover bg-no-repeat "
         >
+          {/* 
           <h1 className="pt-20 pb-5 text-4xl font-bold font-NocturaSans flex justify-center lg:text-6xl">
             GREMGOYLES
           </h1>
+          */}
+
           <nav className="bg-black bg-opacity-75 fixed top-0 left-0 right-0 z-10 flex pb-5 justify-center">
             <ul className="flex items-center gap-2 text-2xl font-medium ">
               <Link href="#aboutsection">
@@ -80,72 +90,164 @@ export default function Home() {
               </Link>
             </ul>
           </nav>
-          <div className="pt-2 pb-10 flex px-4 items-center gap-2 text-center justify-center">
-            <Link legacyBehavior href="http://twitter.com/gremgoyles">
-              <a>
-                <AiFillTwitterCircle className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-
-            <Link legacyBehavior href="https://instagram.com/gremgoyles">
-              <a>
-                <AiFillInstagram className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://discord.gg/WHrtReUkmG">
-              <a>
-                <SiDiscord className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-            <Link
-              legacyBehavior
-              href="https://opensea.io/GremGoyles?tab=created"
-            >
-              <a>
-                <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
-                  <Image
-                    src={opensea}
-                    alt="opensea icon"
-                    className="hover:opacity-50"
-                  />
-                </div>
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://bit.ly/3Xfoveo">
-              <a>
-                <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
-                  <Image
-                    src={spatial}
-                    alt="spatial icon"
-                    className="hover:opacity-50"
-                  />
-                </div>
-              </a>
-            </Link>
-            <Link
-              legacyBehavior
-              href="https://youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ"
-            >
-              <a>
-                <AiFillYoutube className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://tiktok.com/@gremgoyles">
-              <a>
-                <SiTiktok className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://twitch.tv/gremgoyles">
-              <a>
-                <SiTwitch className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://gremgoylesmerch.bigcartel.com">
-              <a>
-                <IoStorefront className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
-              </a>
-            </Link>
+          <div className="flex items-center justify-center pt-10 m-6">
+            <Image
+              src={gremgoyleslogo}
+              alt="gremgoyles logo"
+              loading="lazy"
+              width={500}
+              height={500}
+            />
           </div>
+
+          {/*SOCIAL MEDIA LINKS..WEREY*/}
+
+          <div className="pt-2 pb-10 px-4 items-center text-center justify-center">
+            <div className="flex flex-1 px-4 justify-center gap-2 items-baseline lg:gap-4">
+              <Link legacyBehavior href="http://twitter.com/gremgoyles">
+                <a>
+                  <AiFillTwitterCircle className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+                </a>
+              </Link>
+
+              <Link legacyBehavior href="https://instagram.com/gremgoyles">
+                <a>
+                  <AiFillInstagram className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+                </a>
+              </Link>
+              <Link legacyBehavior href="https://discord.gg/WHrtReUkmG">
+                <a>
+                  <SiDiscord className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+                </a>
+              </Link>
+              <Link legacyBehavior href="https://bit.ly/3Xfoveo">
+                <a>
+                  <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={spatial}
+                      alt="spatial icon"
+                      className="hover:opacity-50"
+                    />
+                  </div>
+                </a>
+              </Link>
+              <Link
+                legacyBehavior
+                href="https://youtube.com/channel/UCIMxTAWOi3CHCjmf72-mkWQ"
+              >
+                <a>
+                  <AiFillYoutube className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+                </a>
+              </Link>
+              <Link legacyBehavior href="https://tiktok.com/@gremgoyles">
+                <a>
+                  <SiTiktok className="bg-white hover:text-gray-400 p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20" />
+                </a>
+              </Link>
+              {/*ADDING NEW ICONS TO THE LIST OF SOCIALS*/}
+              <Link legacyBehavior href="https://gremgoylesmerch.bigcartel.com">
+                <a>
+                  <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={merchshop}
+                      alt="opensea icon"
+                      className="hover:opacity-50"
+                    />
+                  </div>
+                </a>
+              </Link>
+            </div>
+            {/*NEXT LINE BREAK, STUPID CSS*/}
+            <div className="py-4 flex flex-1 px-4 justify-center gap-2 items-baseline lg:gap-4">
+              <div className="flex flex-col items-center">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/GremGoyles?tab=created"
+                >
+                  <a>
+                    <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                      <Image
+                        src={opensea}
+                        alt="opensea icon"
+                        className="hover:opacity-50"
+                      />
+                    </div>
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">Phase I</p>
+              </div>
+              <Link
+                legacyBehavior
+                href="https://opensea.io/collection/gremgoylescustoms"
+              >
+                <a>
+                  <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={ggcustoms}
+                      alt="gg customs"
+                      className="hover:opacity-50"
+                    />
+                  </div>
+                </a>
+              </Link>
+              <div className="flex flex-col items-center">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/collection/gremgoylecoins"
+                >
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={ggcoin}
+                      alt="gremgoyles coin"
+                      className="hover:opacity-50"
+                    />
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">gg coin</p>
+              </div>
+              <Link
+                legacyBehavior
+                href="https://opensea.io/collection/gremgoylescastle4"
+              >
+                <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                  <Image
+                    src={phase2}
+                    alt="phase 2"
+                    className="hover:opacity-50"
+                  />
+                </a>
+              </Link>
+              <div className="flex flex-col items-center">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/collection/ggmysteryboxes"
+                >
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={ggbox}
+                      alt="Mystery boxes"
+                      className="hover:opacity-50"
+                    />
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">mystery</p>
+                <p className="text-sm lg:text-2xl">boxes</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <Link legacyBehavior href="#">
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={watervial}
+                      alt="potions"
+                      className="hover:opacity-50"
+                    />
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">potions</p>
+              </div>
+            </div>
+          </div>
+
           <div className="text-center md:max-w-2xl lg:max-w-4xl mx-auto">
             <p className="py-2">
               Gremgoyles was inspired by the 1984 horror film called Gremlins
