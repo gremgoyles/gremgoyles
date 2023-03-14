@@ -166,34 +166,35 @@ export default function Home() {
                   legacyBehavior
                   href="https://opensea.io/GremGoyles?tab=created"
                 >
-                  <a>
-                    <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
-                      <Image
-                        src={opensea}
-                        alt="opensea icon"
-                        loading="lazy"
-                        className="hover:opacity-50"
-                      />
-                    </div>
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={opensea}
+                      alt="opensea icon"
+                      loading="lazy"
+                      className="hover:opacity-50"
+                    />
                   </a>
                 </Link>
-                <p className="text-sm lg:text-2xl">Phase I</p>
+                <p className="text-sm lg:text-2xl">Phase</p>
+                <p className="text-sm lg:text-2xl">I</p>
               </div>
-              <Link
-                legacyBehavior
-                href="https://opensea.io/collection/gremgoylescustoms"
-              >
-                <a>
-                  <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+              <div className="flex flex-col items-center">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/collection/gremgoylescustoms"
+                >
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
                     <Image
                       src={ggcustoms}
                       alt="gg customs"
                       loading="lazy"
                       className="hover:opacity-50"
                     />
-                  </div>
-                </a>
-              </Link>
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">customs</p>
+              </div>
+
               <div className="flex flex-col items-center">
                 <Link
                   legacyBehavior
@@ -208,21 +209,25 @@ export default function Home() {
                     />
                   </a>
                 </Link>
-                <p className="text-sm lg:text-2xl">gg coin</p>
+                <p className="text-sm lg:text-2xl">coin</p>
               </div>
-              <Link
-                legacyBehavior
-                href="https://opensea.io/collection/gremgoylescastle4"
-              >
-                <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
-                  <Image
-                    src={phase2}
-                    alt="phase 2"
-                    loading="lazy"
-                    className="hover:opacity-50"
-                  />
-                </a>
-              </Link>
+              <div className="flex flex-col items-center">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/collection/gremgoylescastle4"
+                >
+                  <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
+                    <Image
+                      src={opensea}
+                      alt="phase 2"
+                      loading="lazy"
+                      className="hover:opacity-50"
+                    />
+                  </a>
+                </Link>
+                <p className="text-sm lg:text-2xl">phase</p>
+                <p className="text-sm lg:text-2xl">II</p>
+              </div>
               <div className="flex flex-col items-center">
                 <Link
                   legacyBehavior
