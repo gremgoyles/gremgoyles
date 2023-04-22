@@ -577,7 +577,7 @@ export default function Home() {
                 challenges and games and more!
               </li>
               <li className="pt-10 text-7xl shadow-sm text-red-800 animate-bounce">
-                <span className="text-8xl">50%</span> Minted
+                <span className="text-8xl">100%</span> SOLD OUT
               </li>
             </ul>
           </div>
