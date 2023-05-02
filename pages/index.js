@@ -246,7 +246,10 @@ export default function Home() {
                 <p className="text-sm lg:text-2xl">boxes</p>
               </div>
               <div className="flex flex-col items-center">
-                <Link legacyBehavior href="#">
+                <Link
+                  legacyBehavior
+                  href="https://opensea.io/collection/gremgoylepotions"
+                >
                   <a className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
                     <Image
                       src={watervial}
