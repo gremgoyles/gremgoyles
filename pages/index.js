@@ -100,7 +100,7 @@ export default function Home() {
             />
           </div>
 
-          {/*SOCIAL MEDIA LINKS..WEREYew*/}
+          {/*SOCIAL MEDIA LINKS..WEREY*/}
 
           <div className="pt-2 pb-10 px-4 items-center text-center justify-center">
             <div className="flex flex-1 px-4 justify-center gap-2 items-baseline lg:gap-4">
@@ -146,7 +146,10 @@ export default function Home() {
                 </a>
               </Link>
               {/*ADDING NEW ICONS TO THE LIST OF SOCIALS*/}
-              <Link legacyBehavior href="https://gremgoylesmerch.bigcartel.com">
+              <Link
+                legacyBehavior
+                href="https://shop.gnarafdao.xyz/pages/gremgoyles"
+              >
                 <a>
                   <div className="bg-white p-1 rounded-full w-8 h-8 cursor-pointer text-black lg:w-20 lg:h-20">
                     <Image
